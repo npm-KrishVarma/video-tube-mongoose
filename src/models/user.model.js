@@ -23,7 +23,6 @@ const userSchema = new Schema({
             required: [true, "Fullname Required"],
             lowercase: true,
             trim: true,
-            unique: true,
             index: true,
         },
         avatar: {
